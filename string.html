@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+    <script src="string.js" defer></script>
+    <style>
+        h1{
+            font-size: 5rem;
+            text-align: center;
+        }
+        ol>li>p,ol>li{
+            font-size: 2rem;
+        }
+        .form,.result{
+            font-size:1rem;
+        }
+        input{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The String Game</h1>
+    <ol>
+        <li>
+            <p>Concatination of String</p>
+            <div class="form">
+                <label for="string1">Enter 1st String: </label>
+                <input type="text" name="string1" id="" class="string1">
+                <label for="string2">Enter 2nd String: </label>
+                <input type="text" name="string2" id="" class="string2">
+                <input type="submit" value="Submit" class="stringSubmitConcat">
+            </div>
+            <div class="result">
+               <p> Answer: <span class="answerStringConcatination"></span></p> 
+            </div>
+        </li>
+        <li>
+            <p>Finding Length of String</p>
+            <div class="form">
+                <label for="stringLength">Enter String: </label>
+                <input type="text" name="stringLength" id="" class="stringLength">
+                <input type="submit" value="Submit" class="stringSubmitLength">
+            </div>
+            <div class="result">
+               <p> Answer: <span class="answerStringLength"></span></p> 
+            </div>
+        </li>
+        <li>
+            <p>Finding  occurance of a Substring in String</p>
+            <div class="form">
+                <label for="largerString">Enter a String: </label>
+                <input type="text" name="" id="" class="largerString">
+                <label for="subString">Enter the substring to be found: </label>
+                <input type="text" name="string" id="" class="subString">
+                <input type="submit" value="Submit" class="stringSubmitSubstring">
+            </div>
+            <div class="result">
+                <p> Answer: <span class="answerStringSubstring"></span></p> 
+                <p> Number of Reccurance: <span class="reccurance"></span></p> 
+             </div>
+        </li>
+        <li>
+            <p>Finding  replace a part in String</p>
+            <div class="form">  
+                <label for="largerString">Enter a String: </label>
+                <input type="text" name="" id="" class="largerStringR">
+                <label for="subString">Enter  the substring to be replaced: </label>
+                <input type="text" name="string" id="" class="subStringR">
+                <label for="replace">Enter  the substring to be substuted: </label>
+                <input type="text" name="string" id="" class="replace">
+                <input type="submit" value="Submit" class="stringSubmitReplace">
+            </div>
+            <div class="result">
+                <p> Answer: <span class="answerStringReplace"></span></p> 
+             </div>
+        </li>
+    </ol>
+</body>
+</html>
