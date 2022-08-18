@@ -1,1 +1,1 @@
-# learning_JavaScript_MDN
+# learning_JavaScript_Games
