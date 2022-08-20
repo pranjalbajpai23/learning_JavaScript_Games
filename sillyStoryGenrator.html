@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Story Genrator</title>
+    <script src="sillyStoryGenrator.js" defer></script>
+    <style>
+        h1{
+            font-size: 5rem;
+            text-align: center;
+        }
+        div{
+            text-align: center;
+        }
+        label{
+            font-size: 1.5rem;
+            text-align: left;
+        }
+        input{
+            margin: 10px;
+            
+        }
+        #buttonGenrator{
+         width: 10rem;
+         height: 2rem;   
+        }
+        p{
+            background: #eedfb8;
+            color: #22100a;
+            padding: 10px;
+            visibility: hidden;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 2rem;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Silly Story Genrator</h1>
+    <div>
+        <label for="name"> Enter custom name :</label>
+        <input type="text" name="name" id="userName">
+    </div>
+    <div>
+        <label for="accent">Chosse Your Accent :</label>
+        <label for="UK">UK </label><input type="radio" name="accent" id="uk" value="UK" >
+        <label for="US">US</label> <input type="radio" name="accent" id="uS" value="US" checked>
+    </div>  
+    <div>  
+        <input type="button" value="Genrate silly story" id="buttonGenrator">
+    </div>
+    <p id="story"></p>
+</body>
+</html>
