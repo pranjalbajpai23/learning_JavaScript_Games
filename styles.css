@@ -34,5 +34,13 @@ p {
 img {
   width: 80%;
 }
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-size: large;
+  font-family: 'Indie Flower', cursive;
+
+}
 
 
