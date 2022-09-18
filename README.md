@@ -10,7 +10,10 @@
 - Operations on Number- [Link](number.html)
 - Dice Roller - [Link](dicee.html)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f15d6ae340edebed01f8c6598d6cd2923ae7c17b
 
 ## Module 1 MDN Assignment 
 Silly stroy genrator- [Link](sillyStoryGenrator.html)
