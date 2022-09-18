@@ -8,7 +8,7 @@
 - Number Guessing Game- [Link](guessTheNumber.html)
 - Operations on string- [Link](string.html)
 - Operations on Number- [Link](number.html)
-- Dice Roller - [Link](/learning_JavaScript_Games/Dicee%20Challenge%20-%20Starting%20Files/dicee.html)
+- Dice Roller - [Link](dicee.html)
 
 ## Module 1 MDN Assignment 
 Silly stroy genrator- [Link](sillyStoryGenrator.html)

@@ -9,7 +9,7 @@ function random(){
     return randomNumber;
 }
 function randomDiceGenerator(){
-    const url =`images/dice${random().toString()}.png`
+    const url =`imagesDice/dice${random().toString()}.png`
     return url
 }
 
